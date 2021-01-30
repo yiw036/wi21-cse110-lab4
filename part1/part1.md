@@ -37,6 +37,6 @@
 
 17. 'How are you?' gets printed because the comparison 2 == true is false as 2 is not equal to 1, so we go to the else if block where the condition is true, thus printing 'How are you?'.
 18. *
-19. [6, 8, 10]
+19. [6, 8, 10] as the callback funtion within the modifyArray function is called on i = 0. which is the element 1, to add 2 to 1 and get 3. 3 is then multiplie by 2 and returns 6. 8 and 10 are calculated using the same process with i = 2 and i = 3.
 20. *
 21. 1, 4, 3, 2.
